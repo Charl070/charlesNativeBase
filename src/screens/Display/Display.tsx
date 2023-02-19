@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import * as S from './Display.styles';
-import {IFirstDataSet, ISecondDataSet} from './Display.intefaces';
+import {
+  IFirstDataSet,
+  ISecondDataSet,
+} from '../../helpers/dataService/DataServise.intefaces';
 import DataService from '../../helpers/dataService/DataServiceClass';
 
 const Display = () => {
