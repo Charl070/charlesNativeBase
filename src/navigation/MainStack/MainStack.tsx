@@ -6,7 +6,9 @@ const Stack = createNativeStackNavigator();
 
 const MainStack: React.FC = () => {
   return (
-    <Stack.Navigator screenOptions={{headerShown: false}}>
+    <Stack.Navigator
+      screenOptions={{headerShown: false}}
+      initialRouteName="Home">
       <Stack.Screen component={Home} name="Home" />
       <Stack.Screen component={Display} name="Display" />
       <Stack.Screen component={Capture} name="Capture" />
